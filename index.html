@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card-box">
+            <div class="front-card">
+                <div class="front-card_img">
+                    <img src="image/chip.png" alt="" class="chipLogo">
+                    <img src="image/visa.png" alt="" class="payLogo">
+                </div>
+                <div class="card_number-title">
+                    <p class="card_number">#############</p>
+                </div>
+                <div class="card-info">
+                    <div class="card_holder">
+                        <span class="cardHolder-title">Holdeer Name</span>
+                        <p class="cardHolderUser">soheil feizi</p>
+                    </div>
+                    <div class="cardDate">
+                        <span class="cardDate-title">EXPIRES</span>
+                        <span class="cardDate-inner">
+                            <p class="cardData-month">mm</p>
+                            <p>/</p>
+                            <p class="cardDate-year">yy</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="back-card">
+                <div class="black_line"></div>
+                <div class="input-box">
+                    <span class="cvv_input_title">CVV</span>
+                    <div class="cvv"></div>
+                </div>
+                <img src="image/visa.png" alt="" class="back_logo">
+            </div>
+        </div>
+        <div class="form-box">
+        <form action="" class="card-input-box">
+            <div class="input-box">
+                <span class="card-number-input-title">Card Number</span>
+                <input type="num" class="card-number-input" maxlength="16">
+            </div>
+            <div class="input-box">
+                <span class="card-holder-input-title">Holder Name </span>
+                <input type="text" class="card-holder-input">
+            </div>
+            <div class="flexbox">
+                <div class="input-box">
+                    <span class="card-data-input-title">expiration mm</span>
+                    <select name="" id="" class="card-date-input">
+                        <option value="month" selected disabled>month</option>
+                        <option value="01" >01</option>
+                        <option value="02" >02</option>
+                        <option value="03" >03</option>
+                        <option value="04" >04</option>
+                        <option value="05" >05</option>
+                        <option value="06" >06</option>
+                        <option value="07" >07</option>
+                        <option value="08" >08</option>
+                        <option value="09" >09</option>
+                        <option value="10" >10</option>
+                        <option value="11" >11</option>
+                        <option value="12" >12</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <span class="card_date_year_title">expiration yy</span>
+                    <select name="" id="" class="card_date_year_input">
+                        <option value="year" selected disabled>year</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <span class="cvv-input-title">cvv</span>
+                    <input type="num" class="cvv-input">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
